@@ -1,0 +1,21 @@
+{
+    "name": "forkify",
+    "version": "1.0.0",
+    "description": "recipe application",
+    "default": "index.js",
+    "scripts": {
+        "start": "parcel starter/index.html",
+        "build": "parcel build starter/index.html --dist-dir ./dist"
+    },
+    "author": "shruti shende",
+    "license": "ISC",
+    "dependencies": {
+        "core-js": "^3.21.0",
+        "fractional": "^1.0.0",
+        "regenerator-runtime": "^0.13.9"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.2.1",
+        "parcel": "^2.2.1"
+    }
+}
